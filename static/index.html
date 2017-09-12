@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<title>Flask test</title>
+</head>
+<body>
+
+<form id="uploadform" method="post" enctype="multipart/form-data">
+    <label for="file">Select a file</label>
+    <input name="file" type="file">
+    <button id="submit" type="button">Upload</button>
+</form>
+<p>Result Filename:&nbsp;<span id="resultFilename"></span></p>
+<p>Azure storage link:&nbsp;<span id="resultUrl"></span></p>
+
+<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
