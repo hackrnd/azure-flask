@@ -1,8 +1,8 @@
+from flask import Flask
 from flask import jsonify
 from flask import request
 from werkzeug import secure_filename
 from azure.storage.blob import BlockBlobService
-from FlaskWebProject import app
 import os
 
 
